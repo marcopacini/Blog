@@ -1,6 +1,6 @@
 baseURL = "https://marcopacini.github.io/"
 languageCode = "en-us"
-title = ":alien: MP's Blog"
+title = "MP's Blog"
 
 theme = "hugo-paper"
 enableEmoji = true
