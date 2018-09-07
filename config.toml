@@ -1,0 +1,25 @@
+baseURL = "http://marcopacini.github.io/"
+languageCode = "en-us"
+title = ":alien: MP's Blog"
+
+theme = "hugo-paper"
+enableEmoji = true
+
+[taxonomies]
+    tag = "tags"
+
+[menu]
+    [[menu.main]]
+        identifier = "Blog"
+        name = "Blog"
+        url = "/blog/"
+
+    [[menu.main]]
+        identifier = "Projects"
+        name = "Projects"
+        url = "/projects/"
+
+    [[menu.main]]
+        identifier = "About"
+        name = "About"
+        url = "/about/who-I-am/"
