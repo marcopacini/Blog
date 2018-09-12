@@ -5,6 +5,8 @@ categories: [Computer]
 tags: [Go, draw2d]
 ---
 
+![Goopher](/img/goopher-pixel-art.png)
+
 If you don't want waste your time reading how I have lost a few hours with your same problem **just replace `RGBA` colour type with `NRGBA`!**
 
 Several days ago I decided to start learning Go. After I have quickly read [Introduction to Go](https://www.golang-book.com/books/intro) (I suggest it) I got my hands dirty implementing my custom *"Hello World"* program: a tiny genetic algorithm that draw (ehm... it just copy) famous Gioconda painting.
