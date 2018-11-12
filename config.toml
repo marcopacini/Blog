@@ -13,14 +13,14 @@ googleAnalytics = "UA-107568087-1"
     [[menu.main]]
         identifier = "Blog"
         name = "Blog"
-        url = "/blog/"
+        url = "https://marcopacini.github.io/"
 
-    [[menu.main]]
-        identifier = "Projects"
-        name = "Projects"
-        url = "/projects/"
+#    [[menu.main]]
+#        identifier = "Projects"
+#        name = "Projects"
+#        url = "/projects/"
 
     [[menu.main]]
         identifier = "About"
         name = "About"
-        url = "/about/who-I-am/"
+        url = "/posts/i-am-back/"
