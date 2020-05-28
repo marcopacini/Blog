@@ -5,7 +5,7 @@ categories: [Computer]
 tags: [Go, Genetic Algorithm, Arts]
 ---
 
-![Monna Lisa](/img/monna-lisa.gif)
+![Monna Lisa](/img/monna-lisa.gif#center)
 
 In the last years every time I decided to learn a new programming language I have
 re-implemented an old project that mixes *genetic algorithms* with arts. This time
@@ -90,7 +90,7 @@ we need to initialize this gene for every chromosome except one. This is can be
 done passing a function when configuration struct is set. This is the final result
 using 500 circles:
 
-![Monna Lisa](/img/monna-lisa.png)
+![Monna Lisa](/img/monna-lisa.png#center)
 
 For any question you can send me an email. ;-)
 
