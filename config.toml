@@ -2,25 +2,41 @@ baseURL = "https://marcopacini.github.io/"
 languageCode = "en-us"
 title = "MP's Blog"
 
-theme = "hugo-paper"
+theme = "hugo-goa"
 enableEmoji = true
 googleAnalytics = "UA-107568087-1"
 
-[taxonomies]
-    tag = "tags"
+## Site Settings
+[params]
+author = "Marco Pacini"
+intro = "Software Engineer"
+description = "Full Stack Software Engineer [@Subito](http://www.subito.it) <br/> Previously @ING, and @Capgemini"
+authorimage = "avatar.png"
+dateformat = "Jan 2, 2006"
+
+[params.extra]
+copyright = "© 2020. Marco Pacini · ⚡️ by Hugo️️ · <br/> Designed by [@shenoybr](https://github.com/shenoybr) and messed up with ❤️"
+poweredby = false
+displayrssicon = false
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [menu]
     [[menu.main]]
-        identifier = "Blog"
-        name = "Blog"
-        url = "https://marcopacini.github.io/"
-
-#    [[menu.main]]
-#        identifier = "Projects"
-#        name = "Projects"
-#        url = "/projects/"
-
-    [[menu.main]]
         identifier = "About"
         name = "About"
+        weight = 100
         url = "/posts/i-am-back/"
+
+    [[menu.main]]
+        identifier = "Code"
+        name = "Code"
+        weight = 200
+        url = "https://github.com/marcopacini"
+
+    [[menu.main]]
+        identifier = "Blog"
+        name = "Blog"
+        weight = 300
+        url = "/posts/"
