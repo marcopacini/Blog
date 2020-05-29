@@ -1,4 +1,4 @@
-baseURL = "https://marcopacini.github.io/"
+baseURL = "https://marcopacini.dev/"
 languageCode = "en-us"
 title = "MP's Blog"
 
@@ -40,3 +40,9 @@ unsafe= true
         name = "Blog"
         weight = 300
         url = "/posts/"
+
+    [[menu.main]]
+        identifier = "Social"
+        name = "Social"
+        weight = 400
+        url = "https://www.linkedin.com/in/marco-pacini/"
