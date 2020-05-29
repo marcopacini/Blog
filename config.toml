@@ -1,6 +1,6 @@
 baseURL = "https://marcopacini.dev/"
 languageCode = "en-us"
-title = "MP's Blog"
+title = "Marco Pacini's Blog"
 
 theme = "hugo-goa"
 enableEmoji = true
@@ -15,7 +15,7 @@ authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
 
 [params.extra]
-copyright = "© 2020. Marco Pacini · ⚡️ by Hugo️️ · <br/> Designed by [@shenoybr](https://github.com/shenoybr) and messed up with ❤️"
+copyright = "© 2020. Marco Pacini · ⚡️ by Hugo️️<br/>Designed by [@shenoybr](https://github.com/shenoybr) and messed up with ❤️"
 poweredby = false
 displayrssicon = false
 
@@ -30,16 +30,16 @@ unsafe= true
         url = "/posts/i-am-back/"
 
     [[menu.main]]
-        identifier = "Code"
-        name = "Code"
-        weight = 200
-        url = "https://github.com/marcopacini"
-
-    [[menu.main]]
         identifier = "Blog"
         name = "Blog"
-        weight = 300
+        weight = 200
         url = "/posts/"
+
+    [[menu.main]]
+        identifier = "Code"
+        name = "Code"
+        weight = 300
+        url = "https://github.com/marcopacini"
 
     [[menu.main]]
         identifier = "Social"
